@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Portfólio</title>
+  <!-- Fonte e CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menu -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Meu Portfólio</div>
+      <ul class="menu">
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Formulário de contato -->
+  <main class="container">
+    <section class="sobre">
+      <div class="texto">
+        <h1>Entre em Contato</h1>
+        <form class="form">
+          <!-- Campo Nome -->
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+          <!-- Campo E-mail -->
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+          <!-- Campo Mensagem -->
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+
+          <!-- Botão de envio -->
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 - Portfólio de Kelvin Kauan</p>
+  </footer>
+</body>
+</html>

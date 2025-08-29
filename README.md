@@ -28,6 +28,7 @@ O objetivo deste projeto é demonstrar:
 ## 🌐 Link de Publicação
 
 O site pode ser acessado através do GitHub Pages:  
+https://kelvinlemos7.github.io/meu-portfolio/index.html
 
 
 ---
